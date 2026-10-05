@@ -1,4 +1,3 @@
-
 -- German Credit dataset (first 350 loans) | MySQL 8
 DROP TABLE IF EXISTS loans;
 
@@ -347,4 +346,8 @@ INSERT INTO loans (age,sex,job,housing,saving_accounts,checking_account,credit_a
 (34,'male',3,'free','little','little',2910,24,'car'),
 (28,'male',2,'own','rich','little',2659,18,'furniture/equipment'),
 (36,'female',2,'own','little',NULL,1028,18,'car'),
-(39,'male',1,'own','little','little',3398,8,'car');
+(39,'male',1,'own','little','little',3398,8,'car'),
+(49,'male',2,'rent',NULL,NULL,5801,12,'furniture/equipment'),
+(34,'female',2,'own','rich',NULL,1525,24,'car'),
+(31,'male',2,'own','little','rich',4473,36,'radio/TV'),
+(28,'male',2,'own','little','moderate',1068
